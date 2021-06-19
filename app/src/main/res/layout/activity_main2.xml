@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#C4D8F3"
+
+    android:id="@+id/MainActivity2"
+    tools:context=".MainActivity2">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:background="#1CA4A6"
+        android:layout_height="165dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="580dp"
+        android:layout_marginTop="411dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/picture" />
+
+    <TextView
+            android:id="@+id/showX"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/showY"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="91dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/showThrottle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/showRudder"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:textAlignment="center" />
+
+    <SeekBar
+        android:id="@+id/sb1"
+        android:layout_width="65dp"
+        android:layout_height="683dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="352dp"
+        android:layout_marginRight="352dp"
+        android:layout_marginBottom="45dp"
+        android:max="100"
+        android:rotation="270"
+        android:rotationX="5"
+        android:rotationY="5"
+        android:scaleX="2"
+        android:translationY="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <SeekBar
+        android:id="@+id/sb3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="39dp"
+        android:max="200"
+        android:scaleX="1"
+        android:scaleY="1" />
+
+
+
+</RelativeLayout>
+
+
+
