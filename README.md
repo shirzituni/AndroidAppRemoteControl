@@ -1,6 +1,5 @@
 # Android-App-Remote-Control
 ```bash
-Third milestone
 1. Using MVVM architecture in a multi-threaded environment.
 2. Implementing a TCP Client to send the data to FlightGear.
 3. Control your flight from our Android App Remote Control
